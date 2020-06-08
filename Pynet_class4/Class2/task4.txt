@@ -1,0 +1,33 @@
+
+
+cisco4#
+cisco4#
+cisco4#terminal length 0
+cisco4#terminal width 511
+cisco4#
+cisco4#
+cisco4#
+cisco4#config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+cisco4(config)#
+cisco4(config)#ip name-server 1.1.1.1
+cisco4(config)#ip name-server 1.1.0.1
+cisco4(config)#ip domain-lookup
+cisco4(config)#
+cisco4(config)#end
+cisco4#
+cisco4#
+cisco4#
+cisco4#ping www.google.com
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 216.58.194.164, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+cisco4#
+cisco4#
+cisco4#write mem
+Building configuration...
+
+[OK]
+cisco4#
+cisco4#exit

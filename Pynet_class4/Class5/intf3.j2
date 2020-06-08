@@ -1,0 +1,5 @@
+{%- for int in int_list %}
+interface {{int}}
+ switchport mode access
+ no shut
+{%- endfor %}

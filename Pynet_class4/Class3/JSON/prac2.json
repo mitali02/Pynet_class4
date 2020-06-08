@@ -1,0 +1,21 @@
+{
+    "host" :"'nxos1.lasthop.io",
+    "username" : "pyclass",
+    "password" : "p2p",
+    "device_name" : "nxos1",
+    "some_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "null_value": null,
+    "a_bool": false
+}
+

@@ -1,0 +1,2 @@
+[{device_name: cisco3, host: cisco3.lasthop.io, password: p2p, username: pyclass},
+  {device_name: cisco4, host: cisco4.lasthop.io, password: p2p, username: pyclass}]

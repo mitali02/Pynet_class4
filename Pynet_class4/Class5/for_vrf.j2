@@ -1,0 +1,19 @@
+{%- for vrf in vrf_var %}
+vrf definition {{vrf.vrf_name}}
+ rd {{vrf.Route_Distinguisher}}
+ {%- if vrf.ipv4_af is defined %} 
+ !
+ address-family ipv4
+  route-target export {{vrf.Route_Distinguisher}}
+  route-target import {{vrf.Route_Distinguisher}}
+ exit-address-family
+ {%- endif %}
+ {%- if vrf.ipv6_af is defined %}
+ !
+ address-family ipv6
+  route-target export {{vrf.Route_Distinguisher}}
+  route-target import {{vrf.Route_Distinguisher}}
+ exit-address-family
+ !
+ {%- endif %}
+{%- endfor %}
