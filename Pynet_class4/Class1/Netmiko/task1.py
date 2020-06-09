@@ -4,7 +4,7 @@ nxos1 = {
    # ssh_port = 22
    # nxapi_port = 8443
     'username' : 'pyclass',
-    'password' : '88newclass',
+    'password' : '',
     'device_type' : 'cisco_nxos'
 }
 
@@ -14,7 +14,7 @@ print (type(nxos1))
 net_connect = ConnectHandler(
         host = 'nxos1.lasthop.io',                                          
         username = 'pyclass',                                               
-        password = '88newclass',                                           
+        password = '',                                           
         device_type ='cisco_nxos',
         session_log = 'nxos1.txt'
 )
