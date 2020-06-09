@@ -3,7 +3,7 @@ from jnpr.junos.op.ethport import EthPortTable
 from getpass import getpass
 from pprint import pprint
 
-a_device = Device(host="srx2.lasthop.io", user="pyclass", password="88newclass")
+a_device = Device(host="srx2.lasthop.io", user="pyclass", password="")
 a_device.open()
 ports = EthPortTable(a_device)
 ports.get()
