@@ -6,7 +6,7 @@ with manager.connect(
     host = "cisco3.lasthop.io",
     port = 830,
     username = "pyclass",
-    password = "88newclass",
+    password = "",
     hostkey_verify = False,
     allow_agent = False,
     look_for_keys = False,
