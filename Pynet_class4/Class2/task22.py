@@ -5,30 +5,11 @@ cisco4 = {
    # 'snmp_port' : '161',
    # 'ssh_port' : '22',
     'username' : 'pyclass',
-    'password' : '88newclass',
+    'password' : '',
     'device_type' : 'cisco_ios',
 }
 
-cisco3 = {
-    'host' : 'cisco3.lasthop.io',
-    'username' : 'pyclass',
-    'password' : '88newclass',
-    'device_type' : 'cisco_ios',
-}
-
-nxos1 = {
-    'host' : 'nxos1.lasthop.io',
-    'username' : 'pyclass',
-    'password' : '88newclass',
-    'device_type' : 'cisco_nxos',
-    "global_delay_factor": 2,
-}
-
-srx2 = {
-    'host' : 'srx2.lasthop.io',
-    'username' : 'pyclass',
-    'password' : '88newclass',
-    'device_type' : 'juniper',
+',
 }
 #devices = [cisco3,cisco4,nxos1,srx2]
 
