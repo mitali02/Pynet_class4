@@ -5,7 +5,7 @@ cisco3 = {
    # 'snmp_port' : '161',
    # 'ssh_port' : '22',
     'username' : 'pyclass',
-    'password' : '88newclass',
+    'password' : '',
     'device_type' : 'cisco_ios',
     'session_log' : 'cisco3_show_run.txt'
 
